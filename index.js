@@ -2,7 +2,7 @@ function getFirstSelector(selector){
   return document.querySelector(selector);
 }
 function nestedTarget(){
-  const first=  document.getElementsByClassName("#nested");
+  const first=  document.getElementById("#nested");
   return first.target;
  
 }
