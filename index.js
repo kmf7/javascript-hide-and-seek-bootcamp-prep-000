@@ -2,10 +2,8 @@ function getFirstSelector(selector){
   return document.querySelector(selector);
 }
 function nestedTarget(){
-  return document.querySelector("nested");
-  return first.target;
- 
-}
+  return document.querySelector("#nested.target");
+  }
 function increaseRankBy(n){
   const lis= document.getElementById("app")
   .querySelectorAll('ul.ranked-list');
